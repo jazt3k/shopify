@@ -1,0 +1,39 @@
+/*
+Error: Invalid CSS after "...ry:            ": expected expression (e.g. 1px, bold), was "{{ settings.bin..."
+        on line 2 of /Volumes/My Passport/King Kong/www/shopify/custom-pages/assets/css/bingo-site.scss
+
+1: //========== bingo - VARIABLES  ==========//
+2: $bingo-color-primary:            {{ settings.bingo_color_primary }};
+3: $bingo-color-secondary:          {{ settings.bingo_color_secondary }};
+4: $bingo-color-tertiary:           {{ settings.bingo_color_tertiary }};
+5: $bingo-border-color:             {{ settings.bingo_color_borders }};
+6: $bingo-body-bg:                  {{ settings.bingo_color_background }};
+7: 
+
+Backtrace:
+/Volumes/My Passport/King Kong/www/shopify/custom-pages/assets/css/bingo-site.scss:2
+/Library/Ruby/Gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1189:in `expected'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.4.22/lib/sass/script/lexer.rb:229:in `expected!'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.4.22/lib/sass/script/parser.rb:704:in `assert_expr'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.4.22/lib/sass/script/parser.rb:75:in `parse'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1051:in `sass_script'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:621:in `variable'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:675:in `block_child'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:665:in `block_contents'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:125:in `stylesheet'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:41:in `parse'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:406:in `_to_tree'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:298:in `render_with_sourcemap'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:391:in `run'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.4.22/lib/sass/exec/base.rb:52:in `parse'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.4.22/lib/sass/exec/base.rb:19:in `parse!'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.4.22/bin/sass:13:in `<top (required)>'
+/usr/local/bin/sass:22:in `load'
+/usr/local/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...ry:            \": expected expression (e.g. 1px, bold), was \"{{ settings.bin...\"\A         on line 2 of /Volumes/My Passport/King Kong/www/shopify/custom-pages/assets/css/bingo-site.scss\A \A 1: //========== bingo - VARIABLES  ==========//\A 2: $bingo-color-primary:            {{ settings.bingo_color_primary }};\A 3: $bingo-color-secondary:          {{ settings.bingo_color_secondary }};\A 4: $bingo-color-tertiary:           {{ settings.bingo_color_tertiary }};\A 5: $bingo-border-color:             {{ settings.bingo_color_borders }};\A 6: $bingo-body-bg:                  {{ settings.bingo_color_background }};\A 7: "; }
