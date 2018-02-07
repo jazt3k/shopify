@@ -182,7 +182,8 @@ section.landing-specs{
   padding: 70px 0;
   .specs-wrap{
     background-color: #ed1c24;
-    padding: 20px;
+    padding: 40px;
+    margin-top: 30px;
   }
   ul{
     margin: 0;
@@ -191,10 +192,17 @@ section.landing-specs{
   }
   li{
     position: relative;
-    margin: 0;
-    padding: 0;
-    font-size: 16px;
+    margin: 0 0 5px 0;
+    padding: 0 0 0 30px;
+    font-size: 20px;
     color: #fff;
+    &::before{
+      content: '\f00c';
+      font-family: 'FontAwesome';
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
   }
 }
 

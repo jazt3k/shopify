@@ -143,17 +143,24 @@ section.landing-specs {
   padding: 70px 0; }
   section.landing-specs .specs-wrap {
     background-color: #ed1c24;
-    padding: 20px; }
+    padding: 40px;
+    margin-top: 30px; }
   section.landing-specs ul {
     margin: 0;
     padding: 0;
     list-style: none; }
   section.landing-specs li {
     position: relative;
-    margin: 0;
-    padding: 0;
-    font-size: 16px;
+    margin: 0 0 5px 0;
+    padding: 0 0 0 30px;
+    font-size: 20px;
     color: #fff; }
+    section.landing-specs li::before {
+      content: '\f00c';
+      font-family: 'FontAwesome';
+      position: absolute;
+      top: 0;
+      left: 0; }
 
 section.landing-promo {
   margin: 0 0 50px 0; }
